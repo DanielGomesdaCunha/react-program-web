@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+
+}
+
+.logo {
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.logo:hover {
+    color: rgb(93, 1, 198);
+    cursor: pointer;
+}
+
+#nav-bar {
+    display: flex;
+    font-size: 1rem;
+}
+
+#nav-bar a {
+    margin-right: 1.875rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
+}
+
+#nav-bar a:hover {
+    color: rgb(93, 1, 198);
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+.menu a {
+    display: block;
+    padding: 0.5rem;
+}
+
+footer {
+    background-color: rgb(47, 47, 47);
+    padding: 3.125rem 1.25rem;
+}
