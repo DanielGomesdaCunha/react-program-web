@@ -96,12 +96,53 @@
 
 @media screen and (max-width: 600px){
     #inicio h1{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     #inicio h2{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
+}
+
+#sobre{
+    background-color: rgb(235, 235, 235);
+    padding: 3rem;
+}
+
+.imagem{
+    border-radius: 1.25rem;
+    transition: 0.8s;
+}
+
+.imagem:hover{
+    transform: scale(1.03);
+}
+
+.imagem .img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1.25rem;
+}
+
+.info{
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.info h3{
+    color: rgb(10, 10, 10);
+    font-size: 1.6rem;
+    font-weight: 700;
+    transition: 0.7s;
+}
+
+.info h3:hover{
+    font-size: 1.7rem;
+}
+
+.info p{
+    color: rgb(10, 10, 10);
+    font-size: 1.2rem;
 }
 
 footer {

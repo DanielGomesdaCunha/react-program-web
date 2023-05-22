@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Inicio from '../../components/Inicio'
+import About from '../../components/About'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <div>
         <Inicio />
+        <About />
       </div>
       {/* <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
