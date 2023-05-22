@@ -19,7 +19,7 @@ export default function Imagens() {
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">{imagens.title}</h5>
-                  {/* <p className="card-text">{project.description}</p> */}
+                  <p className="card-text">{imagens.description}</p>
                 </div>
               </div>
             ))}

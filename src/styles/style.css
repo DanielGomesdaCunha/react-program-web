@@ -115,12 +115,14 @@
 }
 
 .imagem{
+    max-width: 40rem;
     border-radius: 1.25rem;
     transition: 0.8s;
 }
 
 .imagem:hover{
     transform: scale(1.03);
+    box-shadow: 10px 10px 4px 2px rgb(84, 84, 84);
 }
 
 .imagem .img{
@@ -173,10 +175,17 @@
 }
 
 .cartao:hover{
-    transform: scale(1.03);
+    transform: scale(1.02);
+    box-shadow: 6px 6px 4px 3px rgb(52, 52, 52);
 }
 
 footer {
     background-color: rgb(235, 235, 235);
     padding: 3.125rem 1.25rem;
+}
+
+footer p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
 }
