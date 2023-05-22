@@ -49,6 +49,61 @@
     padding: 0.5rem;
 }
 
+#inicio{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Image/cruzeiro-background.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.625rem;
+    padding-left: 6rem;
+    transition: 0.7s;
+}
+
+#inicio h1{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+
+#inicio h2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1080px){
+    #inicio{
+        padding-left: 2rem;
+    }
+
+    #inicio h1 {
+        font-size: 1.4rem;
+    }
+
+    #inicio h2{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #inicio h1{
+        font-size: 1.3rem;
+    }
+
+    #inicio h2{
+        font-size: 1.2rem;
+    }
+}
+
 footer {
     background-color: rgb(47, 47, 47);
     padding: 3.125rem 1.25rem;
