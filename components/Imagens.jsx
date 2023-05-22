@@ -18,7 +18,7 @@ export default function Imagens() {
                   quality={75}
                 />
                 <div className="card-body">
-                  <h5 className="card-title text-center">{imagens.title}</h5>
+                  <h4 className="card-title text-center">{imagens.title}</h4>
                   <p className="card-text">{imagens.description}</p>
                 </div>
               </div>
