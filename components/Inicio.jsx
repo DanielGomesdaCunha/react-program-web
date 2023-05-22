@@ -4,7 +4,7 @@ export default function Inicio() {
             <div className="row justify-content-start">
                 <h1>Sejam bem-vindos</h1>
                 <br />
-                <h2>Sua maior experiência de sua vida</h2>
+                <h2>Sua maior experiência de <span>sua vida</span></h2>
             </div>
         </section>
     )

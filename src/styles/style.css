@@ -17,7 +17,7 @@
 }
 
 .logo:hover {
-    color: rgb(93, 1, 198);
+    color: rgb(243, 251, 0);
     cursor: pointer;
 }
 
@@ -34,7 +34,7 @@
 }
 
 #nav-bar a:hover {
-    color: rgb(93, 1, 198);
+    color: rgb(243, 251, 0);
     cursor: pointer;
 }
 
@@ -72,12 +72,17 @@
     transition: 0.5s;
 }
 
-#inicio h2{
+#inicio h2, span{
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 3px;
     transition: 0.5s;
+}
+
+#inicio h2 span:hover{
+    color: rgb(243, 251, 0);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1080px){
@@ -145,7 +150,33 @@
     font-size: 1.2rem;
 }
 
+#imagens{
+    background-color: rgb(183, 183, 183);
+    padding: 3.125rem;
+}
+
+.grid-image{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    max-width: 960px;
+}
+
+.cartao .image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1.25rem;
+}
+
+.cartao{
+    transition: 0.7s;
+}
+
+.cartao:hover{
+    transform: scale(1.03);
+}
+
 footer {
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(235, 235, 235);
     padding: 3.125rem 1.25rem;
 }
