@@ -13,7 +13,8 @@ export default function About() {
 								className="img"
 								width={640}
 								height={429}
-								quality={75}
+                quality={75}
+                sizes="(max-width: 800px) 80vw, 30rem"
               />
             </div>
           </div>
