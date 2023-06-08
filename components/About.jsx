@@ -8,7 +8,7 @@ export default function About() {
           <div className="col p-3">
             <div className="imagem text-center">
               <Image
-                src="/Image/cruzeiro-alto-mar.webp"
+                src="https://cdn.pixabay.com/photo/2013/06/08/04/17/ferry-boat-123059_1280.jpg"
 								alt="Cruzeiro em alto mar"
 								className="img"
 								width={640}

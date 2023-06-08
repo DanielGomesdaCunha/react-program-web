@@ -1,7 +1,7 @@
 export const imagensCruzeiro = [
     {
         id: 1,
-        image: "/Image/cruzeiro-mundo.webp",
+        image: "https://cdn.pixabay.com/photo/2021/03/06/11/28/ships-6073537_1280.jpg",
         alt: "Cruzeiro no canto do mundo",
         title: "Viagem Mundial",
         description: "Viajamos em todo o mundo para que você possa conhecer diversos países e suas culturas.",
@@ -10,7 +10,7 @@ export const imagensCruzeiro = [
     },
     {
         id: 2,
-        image: "/Image/cruzeiro-lazer.webp",
+        image: "https://cdn.pixabay.com/photo/2014/06/06/20/08/cruise-ship-363804_1280.jpg",
         alt: "Área de lazer para diversão",
         title: "Diversão em Primeiro lugar!",
         description: "Nossa área de lazer para todos os passageiros se divertirem com os seus familiares ou amigos.",
@@ -19,7 +19,7 @@ export const imagensCruzeiro = [
     },
     {
         id: 3,
-        image: "/Image/cruzeiro-ferias.webp",
+        image: "https://cdn.pixabay.com/photo/2015/12/26/17/43/cruise-ship-1108961_1280.jpg",
         alt: "Pontos turísticos para conhecer",
         title: "Que tal um passeio?",
         description: "Visitamos os maiores pontos turisticos de cada país, seja para conhecer a história, a cultura, a culinária, ou para relaxar e se divertir.",
@@ -28,7 +28,7 @@ export const imagensCruzeiro = [
     },
     {
         id: 4,
-        image: "/Image/cruzeiro-gastronomica.webp",
+        image: "https://cdn.pixabay.com/photo/2015/07/03/23/40/cruise-830876_1280.jpg",
         alt: "Fazemos pratos típicos para saborear",
         title: "Vamos saborear",
         description: "Nossa gastronomia são baseados em pratos típicos de cada país, para que você possa saborear as delícias em todo o mundo com os nossos chefes mais experientes.",
