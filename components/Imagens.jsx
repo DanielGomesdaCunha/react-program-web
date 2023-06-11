@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Imagens() {
   return (
-    <section id="imagens">
+    <section id="imagens" data-aos="fade-up">
       <div className="container">
         <div className="grid-image">
           {imagensCruzeiro &&
